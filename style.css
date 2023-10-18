@@ -1,0 +1,148 @@
+
+menu{
+    font-style: italic;
+    
+}
+body {
+    display: block;
+    background: rgb(94, 94, 94);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+
+  background-image:  url(images/fondo\ copy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    padding: 35px;
+}
+
+/* logo*/
+.logo img {
+    width: 260px;
+    height: auto;
+}
+.menu a {
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+.form-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+    color: #ffffff; /* Ajusta el color del texto según tus preferencias */
+}
+.large-input {
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus preferencias */
+    width: 300px; /* Ajusta el tamaño de ancho según tus preferencias */
+    height: 100px; /* Ajusta el tamaño de altura según tus preferencias */
+}
+.large-input1 {
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus preferencias */
+    width: 300px; /* Ajusta el tamaño de ancho según tus preferencias */
+    height: 30px; /* Ajusta el tamaño de altura según tus preferencias */
+}
+.send-button {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Ajusta el tamaño de ancho del botón según tus preferencias */
+    height: 50px; /* Ajusta el tamaño de altura del botón según tus preferencias */
+    background-color: #acfaaf; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Borde del botón */
+    transition: background-color 0.30s ease; /* Transición de animación */
+}
+
+.send-button:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el cursor */
+}
+/*Texto*/
+.container h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #fefefe;
+    font-size: 35px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+}
+
+.menu ol {
+    list-style: none;
+    padding: 0;
+  }
+
+.separator {
+    margin:  10px; /* Ajusta el espacio entre los enlaces si es necesario */
+}
+
+
+
+.menu img {
+    display: block;
+    margin: 30px auto; /* Ajusta los márgenes superior e inferior según sea necesario */
+    width: 300px; /* Ajusta el ancho de la imagen según tus preferencias */
+    height: auto;
+}
+.proyecto-descripcion {
+    color: #130202;
+    font-size: 20px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+  }
+  .proyecto-fecha {
+    color: #130202;
+    font-size: 23px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+  }
+  .procedimientos-descripcion {
+    color: #130202;
+    font-size: 23px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+  }
+  .procedimientos-url {
+    color: #ffffff;
+    font-size: 23px; /* Puedes ajustar el tamaño de fuente según tus preferencias */
+  }
+  .footer {
+    background-color: #c3c3c3;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer p {
+    margin: 0;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  #map {
+    width: 100%;
+    height: 400px;
+  }   
